@@ -1,0 +1,53 @@
+<!----{% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}'''--->
+<head>
+<style>
+body  {
+    background-image: url("https://www.rubberflooringinc.com/Assets/Product/Images/912x600/8219.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+   background-size: 70%;
+  background-position: top;
+  background-position: right;
+}
+p{    margin-left: 100px;}
+
+
+.center {
+    margin: 5%;
+    width: 40%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+</style>
+</head>
+
+<body>
+<h1 class="center">
+
+Pad Requirement Analysis
+
+</h1>
+
+<p>
+  <a href='http://127.0.0.1:8000/polls/some_view/'>
+  click here</a>
+    to check the pad required for future orders listed as per week
+</p>
+
+
+<p>
+   <a href='http://127.0.0.1:8000/polls/some_view1/'>
+   click here</a>
+    to check the total amount of pad required for all the received orders
+</p>
+
+</body>
